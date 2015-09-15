@@ -9,3 +9,24 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
 }
+
+.navbar{
+    width:100%;
+}
+
+.navbar-default {
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    position:fixed;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    float:none;
+    font-size: 1em;
+    font-weight: bold;
+}
