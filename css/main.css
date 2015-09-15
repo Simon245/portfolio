@@ -1,4 +1,4 @@
-// BASE STYLES
+/* BASE STYLES */
 
 html, body {
     height: 100%;
@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 }
 
-// NAVBAR
+/* NAVBAR */
 
 .navbar{
     width:100%;
@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight: bold;
 }
 
-// LAYOUT
+/* LAYOUT */
 
 #page-home{
   width: 100%;
@@ -49,5 +49,3 @@ h1,h2,h3,h4,h5,h6{
   background-size: cover;
   padding-top: 80px;
 }
-
-
