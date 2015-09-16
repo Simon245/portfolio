@@ -90,13 +90,14 @@ h1,h2,h3,h4,h5,h6{
   font-size: 20px;
 }
 
-#page-experience {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
+#page-experience{
+     padding: 75px 0;
+    background:#f7f7f7;
 }
 
+#page-education {
+  padding: 75px 0;
+}
 
 .section-header{
   text-align: center
@@ -113,3 +114,6 @@ h1,h2,h3,h4,h5,h6{
   font-size: 48px;
 }
 
+.xp-img{
+  padding-bottom: 10px;
+}
