@@ -65,11 +65,9 @@ h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
 }
 
-#page-profile {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
+#page-profile{
+    padding: 75px 0;
+    background:#fff;
 }
 
 #page-skills{
@@ -121,6 +119,8 @@ h1,h2,h3,h4,h5,h6{
   color: #FFFFFF;
 }
 
+/* DIVIDERS */
+
 .section-header{
   text-align: center
 }
@@ -141,6 +141,34 @@ h1,h2,h3,h4,h5,h6{
     padding:30px 0;
 }
 
+/* FORM */
+
+.form-control{
+    box-shadow:none;
+    -webkit-box-shadow:none;
+    border: none;
+}
+
+.btn.btn-default {
+  margin: 20px auto 0;
+  background: none;
+  border: 2px solid #4cddf3;
+  border-color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #FFFFFF;
+
+}
+
+.btn.btn-default:hover,
+.btn.btn-default:active{
+    background:#fff;
+    border-color: #fff;
+    color:#3498db;
+}
+
+
 .xp-img{
   padding-bottom: 10px;
 }
+
