@@ -242,6 +242,11 @@ h1,h2,h3,h4,h5,h6{
   color:#3498db;
 }
 
+
+/*=======================
+      SOCIAL ICONS
+=======================*/
+
 .social-icons {
   padding-top: 10px;
   margin-bottom: 35px;
@@ -264,4 +269,24 @@ h1,h2,h3,h4,h5,h6{
   font-size: 20px;
   position: relative;
   padding-top: 15px;
+}
+
+.btn-round:hover{
+  background-color: white;
+}
+
+.btn-github:hover{
+  color:#444444;
+}
+
+.btn-linkedin:hover{
+    color:#015786;
+}
+
+.btn-facebook:hover{
+    color:#204385;
+}
+
+.btn-twitter:hover{
+    color:#2BA9E0;
 }
