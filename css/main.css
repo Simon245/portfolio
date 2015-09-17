@@ -1,4 +1,6 @@
-/* BASE STYLES */
+/*============================
+         BASE STYLES
+==============================*/
 
 html, body {
     height: 100%;
@@ -12,7 +14,9 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 }
 
-/* NAVBAR */
+/* ===========================
+            NAVBAR
+==============================*/
 
 .navbar{
     width:100%;
@@ -35,7 +39,11 @@ h1,h2,h3,h4,h5,h6{
     font-weight: bold;
 }
 
-/* LAYOUT */
+/*==========================
+           LAYOUT
+============================*/
+
+/*HOME*/
 
 #page-home{
   width: 100%;
@@ -67,10 +75,14 @@ h1,h2,h3,h4,h5,h6{
   text-transform: uppercase;
 }
 
+/*PROFILE*/
+
 #page-profile{
     padding: 75px 0;
     background:#f7f7f7;
 }
+
+/*SKILLS*/
 
 #page-skills{
   padding: 75px 0;
@@ -91,15 +103,29 @@ h1,h2,h3,h4,h5,h6{
   font-size: 20px;
 }
 
+/*EDUCATION*/
+
 #page-education {
   padding: 75px 0;
   background:#f7f7f7;
 }
 
+/*EXPERIENCE*/
+
 #page-experience{
   padding: 75px 0;
   /*background:#f7f7f7;*/
 }
+
+.xp-row {
+  margin-top: 20px;
+}
+
+.xp-img{
+  padding-bottom: 10px;
+}
+
+/*PORTFOLIO*/
 
 #page-portfolio {
   padding: 75px 0;
@@ -128,6 +154,8 @@ h1,h2,h3,h4,h5,h6{
   text-align: left;
 }
 
+/*CONTACT*/
+
 #page-contact {
   padding: 75px 0;
   background: #3498db;
@@ -146,7 +174,9 @@ h1,h2,h3,h4,h5,h6{
   color: #FFFFFF;
 }
 
-/* DIVIDERS */
+/* =========================
+        DIVIDERS
+============================*/
 
 .section-header{
   text-align: center
@@ -165,14 +195,6 @@ h1,h2,h3,h4,h5,h6{
   padding: 20px 0;
 }
 
-/*.section-title {
-    font-weight: 700;
-    letter-spacing: 5px;
-    text-align: center;
-    color: #555555;
-    text-transform: uppercase;
-    padding: 20px 0;*/
-
 .section-subtitle {
     text-align: center;
     padding:30px 0;
@@ -189,7 +211,9 @@ h1,h2,h3,h4,h5,h6{
   background: #FFFFFF;
 }
 
-/* FORM */
+/*=======================
+         FORM
+=========================*/
 
 .form-control{
     box-shadow:none;
@@ -217,12 +241,3 @@ h1,h2,h3,h4,h5,h6{
     border-color: #fff;
     color:#3498db;
 }
-
-.xp-row {
-  margin-top: 20px;
-}
-
-.xp-img{
-  padding-bottom: 10px;
-}
-
