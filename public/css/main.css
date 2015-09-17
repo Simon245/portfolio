@@ -14,6 +14,10 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* ===========================
             NAVBAR
 ==============================*/
@@ -80,6 +84,13 @@ h1,h2,h3,h4,h5,h6{
 #page-profile{
     padding: 75px 0;
     background:#f7f7f7;
+}
+
+.profile {
+  border: 5px solid #000000;
+  height: 215px;
+  width: 215px;
+  margin: 0 20 20 0;
 }
 
 /*SKILLS*/
