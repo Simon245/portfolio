@@ -106,6 +106,28 @@ h1,h2,h3,h4,h5,h6{
   background:#f7f7f7;
 }
 
+.portfolio-img {
+  margin-top: 40px;
+}
+
+.portfolio-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-header h3 {
+  text-align: center;
+}
+
+.portfolio-info {
+  text-align: center;
+}
+
+.portfolio-info p {
+  text-align: left;
+}
+
 #page-contact {
   padding: 75px 0;
   background: #3498db;
