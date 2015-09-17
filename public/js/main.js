@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+  $('.hire-me').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+  });
+
   $('#contact-form').on('submit', function(event) {
     event.preventDefault();
     var form = $(this);
