@@ -7,6 +7,10 @@ $(document).ready(function(){
     return false;
   });
 
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus();
+  });
+
   $('#contact-form').on('submit', function(event) {
     event.preventDefault();
     var form = $(this);
