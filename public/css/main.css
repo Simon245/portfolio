@@ -144,18 +144,16 @@ img {
   background:#f7f7f7;
 }
 
-.portfolio-img {
+.portfolio-header {
+  text-align: center;
   margin-top: 40px;
 }
 
-.portfolio-img img {
+.portfolio-header img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.portfolio-header h3 {
-  text-align: center;
+  width: 150px;
 }
 
 .portfolio-info {
