@@ -298,6 +298,15 @@ img {
   height: 50px;
   padding: 0;
   display: inline-block;
+  color: #FFFFFF;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
 }
 
 .btn-round i {
@@ -306,8 +315,12 @@ img {
   padding-top: 15px;
 }
 
-.btn-round:hover{
-  background-color: white;
+.btn.btn-round:hover,
+.btn.btn-round.selected{
+    background: #fff;
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
 }
 
 .btn-github:hover{
