@@ -15,12 +15,12 @@ $(document).ready(function(){
     event.preventDefault();
     var form = $(this);
     var fd = new FormData();
-    var something = this;
+    var thisForm = this;
     fd.append("name", $("#name").val());
     fd.append("email", $("#email").val());
     fd.append("message", $("#message").val());
-    reset = function(){
-      something.reset();
+    resetForm = function(){
+      thisForm.reset();
     };
 
     $.ajax({
@@ -40,7 +40,7 @@ $(document).ready(function(){
         $(".form-message-box").addClass('alert alert-success');
         $(".form-message-box").html("Successful!");
         $(".form-message-box").animate({"opacity":"1"},"slow").animate({"opacity":"0"},2000);
-        reset();
+        resetForm();
       }
     });
   });
