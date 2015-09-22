@@ -15,12 +15,12 @@ $(document).ready(function(){
     event.preventDefault();
     var form = $(this);
     var fd = new FormData();
-    var thisForm = this;
+    var me = this;
     fd.append("name", $("#name").val());
     fd.append("email", $("#email").val());
     fd.append("message", $("#message").val());
     resetForm = function(){
-      thisForm.reset();
+      me.reset();
     };
 
     $.ajax({
