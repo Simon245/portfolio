@@ -18,6 +18,14 @@ img {
   max-width: 100%;
 }
 
+.page-section {
+  padding: 75px 0;
+}
+
+.page-section:nth-of-type(even) {
+  background:#f7f7f7;
+}
+
 /* ===========================
             NAVBAR
 ==============================*/
@@ -61,7 +69,6 @@ img {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*background-color: #f7f7f7;*/
 }
 
 #page-home header {
@@ -82,8 +89,7 @@ img {
 /*PROFILE*/
 
 #page-profile{
-    padding: 75px 0;
-    background:#f7f7f7;
+
 }
 
 .profile {
@@ -96,8 +102,7 @@ img {
 /*SKILLS*/
 
 #page-skills{
-  padding: 75px 0;
-  /*background:#f7f7f7;*/
+
 }
 
 .skills {
@@ -118,15 +123,13 @@ img {
 /*EDUCATION*/
 
 #page-education {
-  padding: 75px 0;
-  background:#f7f7f7;
+
 }
 
 /*EXPERIENCE*/
 
 #page-experience{
-  padding: 75px 0;
-  /*background:#f7f7f7;*/
+
 }
 
 .xp-row {
@@ -140,8 +143,7 @@ img {
 /*PORTFOLIO*/
 
 #page-portfolio {
-  padding: 75px 0;
-  background:#f7f7f7;
+
 }
 
 .portfolio-header {
@@ -171,7 +173,7 @@ img {
 /*CONTACT*/
 
 #page-contact {
-  padding: 75px 0;
+
   background: #3498db;
   color: #fff;
 }
