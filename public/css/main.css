@@ -136,8 +136,9 @@ img {
   margin-top: 20px;
 }
 
-.xp-img{
-  padding-bottom: 10px;
+.xp-img img {
+  height: 130px;
+  width: auto;
 }
 
 /*PORTFOLIO*/
@@ -153,9 +154,9 @@ img {
 
 .portfolio-header img {
   display: block;
-  width: 150px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 140px;
+  width: auto;
+  margin: 0 auto;
 }
 
 .modal-content img {
