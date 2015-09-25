@@ -115,7 +115,7 @@ img {
 /*CONTACT*/
 #page-contact {
   background: #3498db;
-  color: #fff; }
+  color: #FFFFFF; }
   #page-contact h2 {
     color: #FFFFFF; }
   #page-contact .contact-info p {
@@ -163,7 +163,7 @@ img {
   margin: 20px auto 0;
   background: transparent;
   border: 2px solid #4cddf3;
-  border-color: #fff;
+  border-color: #FFFFFF;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
@@ -171,8 +171,8 @@ img {
   color: #FFFFFF;
   border-radius: 0; }
   .btn.btn-default:hover, .btn.btn-default:active {
-    background: #fff;
-    border-color: #fff;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
     color: #3498db; }
 
 .form-message-box {
@@ -187,14 +187,14 @@ img {
   color: #FFFFFF;
   background-color: #FF0000;
   border: 2px solid #4cddf3;
-  border-color: #fff;
+  border-color: #FFFFFF;
   border-radius: 0; }
 
 .alert-success {
   color: #FFFFFF;
   background-color: #00FF00;
   border: 2px solid #4cddf3;
-  border-color: #fff;
+  border-color: #FFFFFF;
   border-radius: 0; }
 
 /*=======================
@@ -226,7 +226,7 @@ img {
     position: relative;
     padding-top: 15px; }
   .btn-round.btn-round:hover, .btn-round.btn-round.selected {
-    background: #fff;
+    background: #FFFFFF;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg); }

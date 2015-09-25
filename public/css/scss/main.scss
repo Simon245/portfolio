@@ -2,6 +2,9 @@
          BASE STYLES
 ==============================*/
 
+$color-white: #FFFFFF;
+$color-blue-bg: #3498db;
+
 html, body {
   height: 100%;
   width: 100%;
@@ -70,7 +73,7 @@ img {
   background-size: cover;
 
   header {
-    color: #FFFFFF;
+    color: $color-white;
     padding-top: 20%;
   }
 
@@ -174,11 +177,11 @@ img {
 
 #page-contact {
 
-  background: #3498db;
-  color: #fff;
+  background: $color-blue-bg;
+  color: $color-white;
 
   h2 {
-  color: #FFFFFF;
+  color: $color-white;
   }
 
   .contact-info {
@@ -186,7 +189,7 @@ img {
     font-size:19px;
     }
     a {
-      color: #FFFFFF
+      color: $color-white
     }
   }
 }
@@ -223,9 +226,9 @@ img {
   width: 100px;
   height: 2px;
   margin: auto;
-  background: #3498db;
+  background: $color-blue-bg;
   #page-contact &{
-    background: #FFFFFF;
+    background: $color-white;
   }
 }
 
@@ -244,19 +247,19 @@ img {
   margin: 20px auto 0;
   background: transparent;
   border: 2px solid #4cddf3;
-  border-color: #fff;
+  border-color: $color-white;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
   padding: 12px 26px 12px;
-  color: #FFFFFF;
+  color: $color-white;
   border-radius: 0;
 
   &:hover,
   &:active{
-    background:#fff;
-    border-color: #fff;
-    color:#3498db;
+    background:$color-white;
+    border-color: $color-white;
+    color:$color-blue-bg;
   }
 }
 
@@ -270,18 +273,18 @@ img {
 }
 
 .alert-danger {
-  color: #FFFFFF;
+  color: $color-white;
   background-color: #FF0000;
   border: 2px solid #4cddf3;
-  border-color: #fff;
+  border-color: $color-white;
   border-radius: 0;
 }
 
 .alert-success {
-  color: #FFFFFF;
+  color: $color-white;
   background-color: #00FF00;
   border: 2px solid #4cddf3;
-  border-color: #fff;
+  border-color: $color-white;
   border-radius: 0;
 }
 
@@ -295,14 +298,14 @@ img {
 }
 
 .btn-round {
-  border: 1px solid #FFFFFF;
+  border: 1px solid $color-white;
   border-radius: 50%;
   margin-right: 15px;
   width: 50px;
   height: 50px;
   padding: 0;
   display: inline-block;
-  color: #FFFFFF;
+  color: $color-white;
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   -o-transition-duration: 0.8s;
@@ -320,7 +323,7 @@ img {
 
   &.btn-round:hover,
   &.btn-round.selected{
-    background: #fff;
+    background: $color-white;
     -webkit-transform:rotate(360deg);
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
