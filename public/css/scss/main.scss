@@ -1,50 +1,62 @@
 /*============================
          BASE STYLES
 ==============================*/
+
 html, body {
   height: 100%;
   width: 100%;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  color: #757575; }
+  color:#757575;
+}
 
-h1, h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6{
   font-family: 'Oxygen', sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 .page-section {
-  padding: 75px 0; }
-  .page-section:nth-of-type(even) {
-    background: #f7f7f7; }
+  padding: 75px 0;
+  &:nth-of-type(even) {
+    background:#f7f7f7;
+  }
+}
 
 /* ===========================
             NAVBAR
 ==============================*/
-.navbar {
-  width: 100%; }
+
+.navbar{
+    width:100%;
+}
 
 .navbar-default {
-  text-transform: uppercase;
-  display: inline-block;
-  text-align: center;
-  position: fixed; }
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    position:fixed;
+}
 
-.navbar-nav {
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-  display: inline-block;
-  float: none;
-  font-size: 1em;
-  font-weight: bold; }
+.navbar-nav{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    float:none;
+    font-size: 1em;
+    font-weight: bold;
+}
 
 /*==========================
            LAYOUT
 ============================*/
+
 /*HOME*/
-#page-home {
+
+#page-home{
   width: 100%;
   height: 100%;
   position: relative;
@@ -55,25 +67,43 @@ img {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
-  #page-home header {
+  background-size: cover;
+
+  header {
     color: #FFFFFF;
-    padding-top: 20%; }
-  #page-home h1 {
+    padding-top: 20%;
+  }
+
+  h1 {
     font-size: 70px;
-    text-transform: uppercase; }
-  #page-home p {
+    text-transform: uppercase;
+  }
+
+  p {
     font-size: 30px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+  }
+}
 
 /*PROFILE*/
+
+#page-profile{
+
+}
+
 .profile {
   border: 5px solid #000000;
   height: 215px;
   width: 215px;
-  margin: 0 20 20 0; }
+  margin: 0 20 20 0;
+}
 
 /*SKILLS*/
+
+#page-skills{
+
+}
+
 .skills {
   position: relative;
   display: inline-block;
@@ -81,54 +111,99 @@ img {
   height: 150px;
   margin-top: 50px;
   margin-bottom: 50px;
-  text-align: center; }
-  .skills p {
+  text-align: center;
+
+  p {
     font-size: 20px;
-    font-weight: 600; }
+    font-weight: 600;
+  }
+}
 
 /*EDUCATION*/
+
+#page-education {
+
+}
+
 /*EXPERIENCE*/
+
+#page-experience{
+
+}
+
 .xp-row {
-  margin-top: 20px; }
-  .xp-row img {
+  margin-top: 20px;
+
+  img {
     height: 130px;
-    width: auto; }
+    width: auto;
+  }
+}
 
 /*PORTFOLIO*/
+
+#page-portfolio {
+
+}
+
 .portfolio-header {
   text-align: center;
-  margin-top: 40px; }
-  .portfolio-header img {
+  margin-top: 40px;
+
+  img {
     display: block;
     height: 140px;
     width: auto;
-    margin: 0 auto; }
+    margin: 0 auto;
+  }
+}
 
 .modal-content img {
-  width: 100%; }
+  width: 100%;
+}
 
 .portfolio-info {
-  text-align: center; }
-  .portfolio-info p {
-    text-align: left; }
+  text-align: center;
+
+  p {
+    text-align: left;
+  }
+}
 
 /*CONTACT*/
+
 #page-contact {
+
   background: #3498db;
-  color: #fff; }
-  #page-contact h2 {
-    color: #FFFFFF; }
-  #page-contact .contact-info p {
-    font-size: 19px; }
-  #page-contact .contact-info a {
-    color: #FFFFFF; }
+  color: #fff;
+
+  h2 {
+  color: #FFFFFF;
+  }
+
+  .contact-info {
+    p {
+    font-size:19px;
+    }
+    a {
+      color: #FFFFFF
+    }
+  }
+}
+
+
 
 /* =========================
         DIVIDERS
 ============================*/
-.section-header {
-  text-align: center p;
-    text-align-font-size: 24px; }
+
+.section-header{
+  text-align: center
+
+  p {
+    font-size: 24px;
+  }
+}
 
 .section-title {
   color: #555555;
@@ -136,28 +211,34 @@ img {
   font-size: 48px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  padding: 20px 0; }
+  padding: 20px 0;
+}
 
 .section-subtitle {
-  text-align: center;
-  padding: 30px 0; }
+    text-align: center;
+    padding:30px 0;
+}
 
 .spacer {
   width: 100px;
   height: 2px;
   margin: auto;
-  background: #3498db; }
-  #page-contact .spacer {
-    background: #FFFFFF; }
+  background: #3498db;
+  #page-contact &{
+    background: #FFFFFF;
+  }
+}
 
 /*=======================
          FORM
 =========================*/
-.form-control {
-  box-shadow: none;
-  -webkit-box-shadow: none;
+
+.form-control{
+  box-shadow:none;
+  -webkit-box-shadow:none;
   border: none;
-  border-radius: 0; }
+  border-radius: 0;
+}
 
 .btn.btn-default {
   margin: 20px auto 0;
@@ -169,11 +250,15 @@ img {
   font-weight: 600;
   padding: 12px 26px 12px;
   color: #FFFFFF;
-  border-radius: 0; }
-  .btn.btn-default:hover, .btn.btn-default:active {
-    background: #fff;
+  border-radius: 0;
+
+  &:hover,
+  &:active{
+    background:#fff;
     border-color: #fff;
-    color: #3498db; }
+    color:#3498db;
+  }
+}
 
 .form-message-box {
   margin-top: 15px;
@@ -181,28 +266,33 @@ img {
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
-  opacity: 0; }
+  opacity: 0;
+}
 
 .alert-danger {
   color: #FFFFFF;
   background-color: #FF0000;
   border: 2px solid #4cddf3;
   border-color: #fff;
-  border-radius: 0; }
+  border-radius: 0;
+}
 
 .alert-success {
   color: #FFFFFF;
   background-color: #00FF00;
   border: 2px solid #4cddf3;
   border-color: #fff;
-  border-radius: 0; }
+  border-radius: 0;
+}
 
 /*=======================
       SOCIAL ICONS
 =======================*/
+
 .social-icons {
   padding-top: 10px;
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+}
 
 .btn-round {
   border: 1px solid #FFFFFF;
@@ -220,28 +310,35 @@ img {
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   -o-transition-property: -o-transform;
-  transition-property: transform; }
-  .btn-round i {
+  transition-property: transform;
+
+  i {
     font-size: 20px;
     position: relative;
-    padding-top: 15px; }
-  .btn-round.btn-round:hover, .btn-round.btn-round.selected {
+    padding-top: 15px;
+  }
+
+  &.btn-round:hover,
+  &.btn-round.selected{
     background: #fff;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg); }
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+  }
+}
 
-.btn-github:hover {
-  color: #444444; }
+.btn-github:hover{
+  color:#444444;
+}
 
-.btn-linkedin:hover {
-  color: #015786; }
+.btn-linkedin:hover{
+    color:#015786;
+}
 
 /*.btn-facebook:hover{
     color:#204385;
 }
 */
-.btn-twitter:hover {
-  color: #2BA9E0; }
-
-/*# sourceMappingURL=main.css.map */
+.btn-twitter:hover{
+    color:#2BA9E0;
+}
