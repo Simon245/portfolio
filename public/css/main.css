@@ -11,9 +11,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Oxygen', sans-serif;
   font-weight: 700; }
 
-img {
-  max-width: 100%; }
-
 .page-section {
   padding: 75px 0; }
   .page-section:nth-of-type(even) {
@@ -72,6 +69,8 @@ img {
   height: 215px;
   width: 215px;
   margin: 0 20 20 0; }
+  .profile img {
+    max-width: 100%; }
 
 /*SKILLS*/
 .skills {

@@ -3,8 +3,12 @@
 ==============================*/
 
 $color-white: #FFFFFF;
+$color-black: #000000;
+$color-red: #FF0000;
+$color-green: #00FF00;
 $color-blue-bg: #3498db;
 $section-title-grey: #555555;
+$background-grey: #f7f7f7;
 $button-border: #4cddf3;
 $github-hover: #444444;
 $linkedin-hover: #015786;
@@ -23,14 +27,10 @@ h1,h2,h3,h4,h5,h6{
   font-weight: 700;
 }
 
-img {
-  max-width: 100%;
-}
-
 .page-section {
   padding: 75px 0;
   &:nth-of-type(even) {
-    background:#f7f7f7;
+    background: $background-grey;
   }
 }
 
@@ -43,20 +43,20 @@ img {
 }
 
 .navbar-default {
-    text-transform: uppercase;
-    display: inline-block;
-    text-align: center;
-    position:fixed;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  position:fixed;
 }
 
 .navbar-nav{
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-    display: inline-block;
-    float:none;
-    font-size: 1em;
-    font-weight: bold;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  float:none;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 /*==========================
@@ -101,10 +101,14 @@ img {
 }
 
 .profile {
-  border: 5px solid #000000;
+  border: 5px solid $color-black;
   height: 215px;
   width: 215px;
   margin: 0 20 20 0;
+
+  img {
+    max-width: 100%;
+  }
 }
 
 /*SKILLS*/
@@ -130,15 +134,15 @@ img {
 
 /*EDUCATION*/
 
-#page-education {
+// #page-education {
 
-}
+// }
 
 /*EXPERIENCE*/
 
-#page-experience{
+// #page-experience{
 
-}
+// }
 
 .xp-row {
   margin-top: 20px;
@@ -280,7 +284,7 @@ img {
 
 .alert-danger {
   color: $color-white;
-  background-color: #FF0000;
+  background-color: $color-red;
   border: 2px solid $button-border;
   border-color: $color-white;
   border-radius: 0;
@@ -288,7 +292,7 @@ img {
 
 .alert-success {
   color: $color-white;
-  background-color: #00FF00;
+  background-color: $color-green;
   border: 2px solid $button-border;
   border-color: $color-white;
   border-radius: 0;
@@ -341,7 +345,7 @@ img {
 }
 
 .btn-linkedin:hover{
-    color: $linkedin-hover;
+  color: $linkedin-hover;
 }
 
 // .btn-facebook:hover{
@@ -349,5 +353,5 @@ img {
 // }
 
 .btn-twitter:hover{
-    color: $twitter-hover;
+  color: $twitter-hover;
 }
