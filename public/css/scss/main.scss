@@ -4,6 +4,12 @@
 
 $color-white: #FFFFFF;
 $color-blue-bg: #3498db;
+$section-title-grey: #555555;
+$button-border: #4cddf3;
+$github-hover: #444444;
+$linkedin-hover: #015786;
+$facebook-hover: #204385;
+$twitter-hover: #2BA9E0;
 
 html, body {
   height: 100%;
@@ -209,7 +215,7 @@ img {
 }
 
 .section-title {
-  color: #555555;
+  color: $section-title-grey;
   text-align: center;
   font-size: 48px;
   letter-spacing: 5px;
@@ -246,7 +252,7 @@ img {
 .btn.btn-default {
   margin: 20px auto 0;
   background: transparent;
-  border: 2px solid #4cddf3;
+  border: 2px solid $button-border;
   border-color: $color-white;
   text-transform: uppercase;
   font-size: 16px;
@@ -275,7 +281,7 @@ img {
 .alert-danger {
   color: $color-white;
   background-color: #FF0000;
-  border: 2px solid #4cddf3;
+  border: 2px solid $button-border;
   border-color: $color-white;
   border-radius: 0;
 }
@@ -283,7 +289,7 @@ img {
 .alert-success {
   color: $color-white;
   background-color: #00FF00;
-  border: 2px solid #4cddf3;
+  border: 2px solid $button-border;
   border-color: $color-white;
   border-radius: 0;
 }
@@ -331,17 +337,17 @@ img {
 }
 
 .btn-github:hover{
-  color:#444444;
+  color: $github-hover;
 }
 
 .btn-linkedin:hover{
-    color:#015786;
+    color: $linkedin-hover;
 }
 
-/*.btn-facebook:hover{
-    color:#204385;
-}
-*/
+// .btn-facebook:hover{
+//     color: $facebook-hover;
+// }
+
 .btn-twitter:hover{
-    color:#2BA9E0;
+    color: $twitter-hover;
 }
