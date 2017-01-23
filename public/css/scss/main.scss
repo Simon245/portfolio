@@ -119,11 +119,7 @@ h1,h2,h3,h4,h5,h6{
 
 .skills {
   position: relative;
-  // display: inline-block;
   width: 150px;
-  // height: 150px;
-  // margin-top: 50px;
-  // margin-bottom: 50px;
   text-align: center;
 
   p {
@@ -134,15 +130,15 @@ h1,h2,h3,h4,h5,h6{
 
 /*EDUCATION*/
 
-// #page-education {
+/*  #page-education {
 
-// }
+ } */
 
 /*EXPERIENCE*/
 
-// #page-experience{
+/* #page-experience{
 
-// }
+} */
 
 .xp-row {
   margin-top: 20px;
@@ -349,9 +345,9 @@ h1,h2,h3,h4,h5,h6{
   color: $linkedin-hover;
 }
 
-// .btn-facebook:hover{
-//     color: $facebook-hover;
-// }
+/* .btn-facebook:hover{
+    color: $facebook-hover;
+} */
 
 .btn-twitter:hover{
   color: $twitter-hover;

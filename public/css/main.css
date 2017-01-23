@@ -82,7 +82,13 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600; }
 
 /*EDUCATION*/
+/*  #page-education {
+
+ } */
 /*EXPERIENCE*/
+/* #page-experience{
+
+} */
 .xp-row {
   margin-top: 20px; }
   .xp-row img {
@@ -233,6 +239,9 @@ h1, h2, h3, h4, h5, h6 {
 .btn-linkedin:hover {
   color: #015786; }
 
+/* .btn-facebook:hover{
+    color: $facebook-hover;
+} */
 .btn-twitter:hover {
   color: #2BA9E0; }
 
